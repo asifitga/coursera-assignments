@@ -1,0 +1,45 @@
+/*Header*/
+#nav-header {
+	border-radius: 0;
+	border: 0;
+	background-color: #009688;
+	border: 2px solid black;
+}
+.navbar-brand{
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.navbar-brand h1 {
+	/*margin-top: 0;
+	margin-bottom: 0;*/
+	margin: 0;
+	text-align: center;
+	vertical-align: top;
+	min-width: 190px;
+	color: #3C2F2F
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+#menu-list {
+	background-color: #83D0C9;
+	color: #4B3832;
+}
+
+#grid {
+	background-color: #8CABA8;
+	color: #854442;
+}
+
+#grid p {
+	text-align: justify-all;
+}
+
+#menu-list li {
+	border-top: 1px solid black;
+}
+#menu-list li:nth-child(3) {
+	border-bottom: 1px solid black;
+}
